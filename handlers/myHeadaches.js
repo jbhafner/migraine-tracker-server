@@ -60,7 +60,7 @@ exports.deleteHeadache = async function(req, res, next) {
 
 exports.getAllHeadaches = async function(req, res, next) {
   try {
-    let allHeadaches = await db.MyHeadaches.find({});
+    let allHeadaches = await db.MyHeadaches.find({}).sort({date: -1});
     return res.status(200).json(allHeadaches);
   } catch (err) {
     next(err);

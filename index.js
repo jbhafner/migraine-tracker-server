@@ -32,7 +32,7 @@ app.get("/api/users/:id/headaches", loginRequired, async function(
   try {
     let myHeadaches = await db.MyHeadaches.find({ user: req.params.id })
       .sort({
-        symbol: "desc"
+        date: "desc"
       })
       .populate("user", {
         username: true
