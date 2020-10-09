@@ -2,7 +2,11 @@
 
 This is the backend for the Migraine Tracker App
 
-## Heading 2
+Blog Article - <a href="https://brianhafner.info/migraine-tracker-create-frontend/" target="_blank">Migraine Tracker – Create Frontend</a>
+
+Blog Article - <a href="https://brianhafner.info/migraine-tracker-create-backend/" target="_blank">Migraine Tracker – Create Backend</a>
+
+Blog Article - <a href="https://brianhafner.info/migraine-tracker-deploy-backend/" target="_blank">Migraine Tracker – Deploy Backend & Frontend</a>
 
 Background:
 ----------------------------------------------------
